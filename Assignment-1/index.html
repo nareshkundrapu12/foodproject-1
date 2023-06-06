@@ -1,0 +1,57 @@
+  <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite food</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            /* background-color: rgba(0, 0, 0, 0.342); */
+           background-image: url(image/slide-2.jpg); 
+        }
+        main{
+            text-align: center;
+        }
+        main h2:hover{
+            background-color: rgba(0, 0, 0, 0.342)
+        }
+        header{
+            background-color:rgba(0, 0, 0, 0.61) ;  
+              }
+        header a{
+            padding: 10px;
+            display: inline-block;
+            color:white;
+            text-decoration: none;
+        }
+        header a:hover{
+            background-color: black;
+        }
+    </style>
+ </head>
+ <body>
+    <header>
+    <a href="#">Biryani</a>
+    <a href="#">Cake</a>
+    <a href="#">Pizza</a>
+    </header>
+<h1>Top 3 Favourite food</h1>
+    <ol>
+        <li><a href="#biryani">Biryani</a></li>
+        <li><a href="#cake">Cake</a></li>
+        <li><a href="#pizza">Pizza</a></li>
+    </ol>
+ <main>
+    <img id="biryani" src="image/biryani.jpg">
+    <h2>Biryani</h2>
+    <img id="cake" src="image/cake.jpg">
+    <h2>Cake</h2>
+    <img id="pizza" src="image/pizza.jpg">
+    <h2>Pizza</h2>
+ </main>   
+ </body>
+ </html>
